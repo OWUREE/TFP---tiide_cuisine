@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    
+    
+}
+header{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background-color: black;
+    width: 100%
+    
+    
+    
+}
+
+
+
+
+nav{
+    
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    
+    
+    
+    color: #FCF7EE;
+    /* margin-right: 120px;
+    margin-left: 120px;
+     */
+    
+}
+.navlink {
+    
+    padding-right: 40px;
+    color: #FCF7EE;
+    font-size:  20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.navlink:hover{
+    color: #d02017;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+button{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FCF7EE;
+}
+svg {
+    color: #FCF7EE;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+
+}
+.call-order{
+    display: flex;
+    font-size: 18px;
+    padding-right: 100px;
+    color: #FCF7EE;
+    
+    
+}
+#number {
+
+    font-weight: bold;
+}
+.navlinks-wrapper{
+    
+    
+    display: flex;
+    
+    
+    
+}
+/* .navbar-wrapper {
+    justify-content: space-between;
+    margin-right: 100px;
+}
+ */
+
+
+.logo{
+    margin-left: 100px ;
+    width: 15%;
+}
