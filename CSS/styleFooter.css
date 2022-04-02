@@ -12,7 +12,7 @@
 }
 .footer{
     background-color: black;
-    padding: 30px 0;
+    padding: 5px 0;
 }
 .row{
 
@@ -29,10 +29,9 @@ ul{
 }
 .footer-col ul li a{
     text-decoration: none;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     color: #FCF7EE;
     padding-left: 8px;
-    text-decoration: ;
 
 }
 .footer-col ul li a:hover{
@@ -41,7 +40,7 @@ ul{
     margin-right: 8px;
 }
 li{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-align: center;
     
 }
@@ -50,13 +49,13 @@ h4{
 }
 .footer-col{
     width: 25%;
-    padding: 0 15px;
+    padding: 0 10px;
     
 }
 .footer-col h4 {
     font-size: 18px;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #FCF7EE;
     font-weight: 500;
     position: relative;
@@ -72,16 +71,20 @@ h4{
     cursor: pointer;
 
 }
-.footer-col, contact, contacts{
-    margin-top: 30px;
+.footer-col{
+    margin-top: 5px;
 }
 svg{
     margin-right: 5px;
     color: #FCF7EE;
 }
 .underline{
-    text-decoration: underline solid #d02017;
+    text-decoration: underline 1.5px solid red;
     color: #d02017;
+    margin-bottom: 30px;
 }
-
+#copyright{
+   text-align: center;
+    margin-top: 0.5rem;
+    color: white;
 }
