@@ -8,7 +8,7 @@ i{
     color: #D02017;
 }
 
-/* header stying */
+/* header styling */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
@@ -76,6 +76,9 @@ button{
     cursor: pointer;
     color: #FCF7EE;
 }
+.content-container{
+    position: fixed;
+}
 svg {
     color: #d02017;
     display: flex;
@@ -90,7 +93,7 @@ svg {
     display: flex;
     font-size: 18px;
     padding-right: 100px;
-    color: #FCF7EE;   
+    color: #FCF7EE; 
 }
 .contact1{
     display: flex;
@@ -117,8 +120,10 @@ svg {
 
 .logo1{
     margin-left: 100px ;
-    /* width: 15%; */
+    width: 15%;
 }
+
+/* body styling */
 .order-page-content{
     padding: 3%;
     padding-right: 7%;
@@ -129,7 +134,6 @@ svg {
     align-items: center;
 }
 .product-wrap{
-    margin-top: 5%;
     width: 45%;
     text-align: center;
 }
@@ -140,20 +144,17 @@ svg {
 .product img{
     width: 350px;
     height: 350px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     object-fit: cover;
-    object-position:right;
+    object-position: center;
 }
-/* img{
-    width: 100%;
-} */
 .small-imgs{
     margin-top: 1.5%;
     background-color:rgba(185,168,163,0.445);
     width: 72%;
     height: 70px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 .small-img-wrap{
     width: 25%;
@@ -162,25 +163,26 @@ svg {
 .small-img-wrap img{
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     object-fit: cover;
-    object-position:right;
+    object-position:center;
 }
 /* meal-info */
 .drinks-info{
+    margin-top: 5%;
     width: 55%;
 }
-.drinks-info h3{
+.drink-name{
     font-size: 29px;
     margin-bottom: 15px;
     text-align: center;
 }
 .description{
-    margin-bottom: 1.5%;
+    margin-bottom: 2%;
     font-size: 24px;
 }
 .drinks-info-texts{
-    margin-bottom: 1.5%;
+    margin-bottom: 2%;
 }
 .see-all{
     color:#D02017;
@@ -189,9 +191,7 @@ svg {
 }
 .price{
     color: #D02017; 
-    /* text-align: none; */
-    margin-bottom: 2%;
-    font-size: 24px;
+    margin: 1.5% 0;
 }
 .deliveries, .delivery-time, .delivery-fee{
     display: flex;
@@ -206,7 +206,9 @@ svg {
     padding-left: 9px;
 }
 .drinks{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 2%;
 }
 .drink{
     display: flex;
@@ -227,9 +229,7 @@ svg {
     margin-bottom: 3%;
 }
 .qty h5, .total h5{
-     padding-left: 10px;
-     font-size: 18px;
-     
+    font-size: 18px;
 }
 .qty input{
     width: 8%;
@@ -260,6 +260,8 @@ svg {
 p{
     font-size: 18px;
 }
+
+/* footer styling */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
@@ -354,6 +356,9 @@ svg{
     margin-top: 0.5rem;
     color: white;
 }
+
+
+
 @media(max-width:760px){
     .order-page-content{
         flex-direction: column;

@@ -8,7 +8,7 @@ i{
     color: #D02017;
 }
 
-       /* header styling */
+/* header stying */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
@@ -33,15 +33,29 @@ header{
     right: 0;
     
     background-color: black;
-    width: 100%   
+    width: 100%
+    
+    
+    
 }
+
+
+
+
 nav{
     
     display: flex;
     
     align-items: center;
     text-align: center;
+    
+    
+    
     color: #FCF7EE;
+    /* margin-right: 120px;
+    margin-left: 120px;
+     */
+    
 }
 .navlink {
     
@@ -62,6 +76,9 @@ button{
     cursor: pointer;
     color: #FCF7EE;
 }
+.content-container{
+    position: fixed;
+}
 svg {
     color: #d02017;
     display: flex;
@@ -76,7 +93,7 @@ svg {
     display: flex;
     font-size: 18px;
     padding-right: 100px;
-    color: #FCF7EE;  
+    color: #FCF7EE;   
 }
 .contact1{
     display: flex;
@@ -99,11 +116,12 @@ svg {
     margin-right: 100px;
 }
  */
- .logo1{
+
+
+.logo1{
     margin-left: 100px ;
     width: 15%;
 }
- /* body-styling */
 .order-page-content{
     padding: 3%;
     padding-right: 7%;
@@ -114,7 +132,7 @@ svg {
     align-items: center;
 }
 .product-wrap{
-    margin-top: 15%;
+    margin-top: 5%;
     width: 45%;
     text-align: center;
 }
@@ -127,14 +145,14 @@ svg {
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: right;
+    object-position:right;
 }
 .small-imgs{
-    margin-top: 15%;
-    background-color: rgba(185,168,163,0.445);
+    margin-top: 1.5%;
+    background-color:rgba(185,168,163,0.445);
     width: 72%;
     height: 70px;
-    display:flex;
+    display: flex;
     justify-content:flex-end;
 }
 .small-img-wrap{
@@ -149,22 +167,20 @@ svg {
     object-position:right;
 }
 /* meal-info */
-.meal-info{
+.drinks-info{
     width: 55%;
 }
-.food{
+.drinks-info h3{
     font-size: 29px;
     margin-bottom: 15px;
     text-align: center;
 }
 .description{
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
     font-size: 24px;
-    text-align: none;
 }
-.meal-info-texts{
-    margin-bottom: 2%;
-    font-size: 18px;
+.drinks-info-texts{
+    margin-bottom: 1.5%;
 }
 .see-all{
     color:#D02017;
@@ -173,13 +189,19 @@ svg {
 }
 .price{
     color: #D02017; 
-    margin: 1.5% 0;
+    text-align: none;
+    margin-bottom: 2%;
+    font-size: 24px;
+}
+.drinks-info .price{
+    text-align: none;
+    font-size: 20px;
 }
 .deliveries, .delivery-time, .delivery-fee{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
 }
 .delivery-time{
     margin-right: 20%;
@@ -187,46 +209,42 @@ svg {
 .delivery-time p, .delivery-fee p{
     padding-left: 9px;
 }
-.withswallow{
-    font-size: 20px;
-    margin-bottom: 2%;
-    font-weight: lighter;
+.drinks{
+    font-size: 16px;
 }
-.swallow, .input-swallow{
+.drink{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1%;
 }
-.input-swallow p{
-    padding-left: 3px;
+.input-drink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
 }
-.active{
-    color: #D02017;
+.input-drink p{
+    padding-left: 3px;
 }
 .qty{
     margin-bottom: 3%;
-
+}
+.qty h5, .total h5{
+    font-size: 18px;
 }
 .qty input{
     width: 8%;
     padding: 0.5%;
     padding-left: 20px;
-    border: 1px solid black ;
+    border: 1px black solid;
 }
 .total{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     border:none;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
     padding:15px 0 3px 0;
     /* margin-bottom: 1.5%; */
-}
-.total-cost{
-    color: #D02017;
 }
 .btn{
     text-align: center;
@@ -244,6 +262,8 @@ svg {
 p{
     font-size: 18px;
 }
+
+/* footer styling */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
@@ -313,7 +333,8 @@ h4{
 .contact {
     display: flex;
     align-items: center;
-    /* margin-bottom: 2%;    */
+    align-self: center;
+    margin-bottom: 2%;   
 }
 .contacts h4:hover{
     margin-right: 8px;
@@ -339,12 +360,10 @@ svg{
     color: white;
 }
 
-
-
-
 @media(max-width:760px){
     .order-page-content{
         flex-direction: column;
+        padding-right: 0;
     }
     .product-wrap{
         width: 100%;
@@ -354,7 +373,7 @@ svg{
         width: 100%;
         /* margin-left: 4%; */
     }
-    .meal-info{
+    .drinks-info{
         width: 100%;
         padding:7%;
         padding-right: 0;

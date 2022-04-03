@@ -74,6 +74,9 @@ button{
     cursor: pointer;
     color: #FCF7EE;
 }
+.content-container{
+    position: fixed;
+}
 svg {
     color: #d02017;
     display: flex;
@@ -213,14 +216,14 @@ svg {
 .input-swallow p{
     padding-left: 3px;
 }
-.qty{
-    margin-bottom: 3%;
-}
 .qty h5, .total h5{
     font-size: 18px;
 } 
 .input-box{
     width: 100%
+}
+.qty{
+    margin-bottom: 3%;
 }
 .qty input{
     width: 8%;

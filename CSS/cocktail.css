@@ -76,6 +76,9 @@ button{
     cursor: pointer;
     color: #FCF7EE;
 }
+.content-container{
+    position: fixed;
+}
 svg {
     color: #d02017;
     display: flex;
@@ -165,6 +168,7 @@ svg {
 }
 /* meal-info */
 .drinks-info{
+    margin-top: 5%;
     width: 55%;
 }
 .drinks-info h3{
