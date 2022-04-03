@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans" sans-serif;
+    
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    background-color: black;
+    padding: 5px 0;
+}
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+
+
+}
+.footer-col ul li a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #FCF7EE;
+    padding-left: 8px;
+
+}
+.footer-col ul li a:hover{
+    
+    color: #d02017;
+    margin-right: 8px;
+}
+li{
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 10px;
+    
+}
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: #FCF7EE;
+    font-weight: 500;
+    position: relative;
+    align-items: center;
+}
+
+.contact {
+    display: flex;   
+}
+.contacts h4:hover{
+    margin-right: 8px;
+    color: #d02017;
+    cursor: pointer;
+
+}
+.footer-col{
+    margin-top: 5px;
+}
+svg{
+    margin-right: 5px;
+    color: #FCF7EE;
+}
+.underline{
+    text-decoration: underline 1.5px solid red;
+    color: #d02017;
+    margin-bottom: 30px;
+}
+#copyright{
+   text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+}

@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+i{
+    color: #D02017;
+}
+
+/* header stying */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    
+    
+}
+header{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    background-color: black;
+    width: 100%
+    
+    
+    
+}
+
+
+
+
+nav{
+    
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    
+    
+    
+    color: #FCF7EE;
+    /* margin-right: 120px;
+    margin-left: 120px;
+     */
+    
+}
+.navlink {
+    
+    padding-right: 40px;
+    color: #FCF7EE;
+    font-size:  20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.navlink:hover{
+    color: #d02017;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+button{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FCF7EE;
+}
+svg {
+    color: #d02017;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+
+}
+.call-order{
+    display: flex;
+    font-size: 18px;
+    padding-right: 100px;
+    color: #FCF7EE;   
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+}
+#number {
+
+    font-weight: bold;
+}
+.navlinks-wrapper{
+    
+    
+    display: flex;
+    
+    
+    
+}
+/* .navbar-wrapper {
+    justify-content: space-between;
+    margin-right: 100px;
+}
+ */
+
+
+.logo1{
+    margin-left: 100px ;
+    width: 15%;
+}
+.order-page-content{
+    padding: 3%;
+    padding-right: 7%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-wrap{
+    margin-top: 5%;
+    width: 45%;
+    text-align: center;
+}
+.product{
+  width: 80%;
+  margin-left: 4%;
+}
+.product img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:right;
+}
+.small-imgs{
+    margin-top: 1.5%;
+    background-color:rgba(185,168,163,0.445);
+    width: 72%;
+    height: 70px;
+    display: flex;
+    justify-content:flex-end;
+}
+.small-img-wrap{
+    width: 25%;
+    padding-left: 6px;
+}
+.small-img-wrap img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:right;
+}
+/* meal-info */
+.drinks-info{
+    width: 55%;
+}
+.drinks-info h3{
+    font-size: 29px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.description{
+    margin-bottom: 1.5%;
+    font-size: 24px;
+}
+.drinks-info-texts{
+    margin-bottom: 1.5%;
+}
+.see-all{
+    color:#D02017;
+    text-decoration: none;
+    font-size: 18px;
+}
+.price{
+    color: #D02017; 
+    text-align: none;
+    margin-bottom: 2%;
+    font-size: 24px;
+}
+.drinks-info .price{
+    text-align: none;
+    font-size: 20px;
+}
+.deliveries, .delivery-time, .delivery-fee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+.delivery-time{
+    margin-right: 20%;
+}
+.delivery-time p, .delivery-fee p{
+    padding-left: 9px;
+}
+.drinks{
+    font-size: 16px;
+}
+.drink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.input-drink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.input-drink p{
+    padding-left: 3px;
+}
+.qty{
+    margin-bottom: 3%;
+}
+.qty h5, .total h5{
+    font-size: 18px;
+}
+.qty input{
+    width: 8%;
+    padding: 0.5%;
+    padding-left: 20px;
+    border: 1px black solid;
+}
+.total{
+    border:none;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding:15px 0 3px 0;
+    /* margin-bottom: 1.5%; */
+}
+.btn{
+    text-align: center;
+    margin-top: 6%;
+}
+.btn a{
+    background-color: #D02017;
+    color: white;
+    padding: 12px 38px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+p{
+    font-size: 18px;
+}
+
+/* footer styling */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans" sans-serif;
+    
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 2%;
+}
+.footer{
+    background-color: black;
+    padding: 5px 0;
+}
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+
+
+}
+.footer-col ul li a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #FCF7EE;
+    padding-left: 8px;
+
+}
+.footer-col ul li a:hover{
+    
+    color: #d02017;
+    margin-right: 8px;
+}
+li{
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 10px;
+    
+}
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 3%;
+    /* margin-bottom: 15px; */
+    color: #FCF7EE;
+    font-weight: 500;
+    position: relative;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 2%;   
+}
+.contacts h4:hover{
+    margin-right: 8px;
+    color: #d02017;
+    cursor: pointer;
+
+}
+.footer-col{
+    margin-top: 5px;
+}
+svg{
+    margin-right: 5px;
+    color: #d02017;
+}
+.underline{
+    text-decoration: underline 1.5px solid red;
+    color: #d02017;
+    margin-bottom: 30px;
+}
+#copyright{
+   text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+@media(max-width:760px){
+    .order-page-content{
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .product-wrap{
+        width: 100%;
+        text-align: center;
+    }
+    .product{
+        width: 100%;
+        /* margin-left: 4%; */
+    }
+    .drinks-info{
+        width: 100%;
+        padding:7%;
+        padding-right: 0;
+
+    }
+    .delivery-time{
+        margin-right: 0;
+    }
+}
+
+
+
