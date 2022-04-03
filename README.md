@@ -16,10 +16,7 @@ HOW TO CONTRIBUTE --->
 CREDIT --->
  [Hanifat Owuri] (https://github.com/OWUREE/)
  [Uchechukwu Ogwumike] (https://github.com/ucheogwumike)
-<<<<<<< HEAD
  [Joy Offiong] (https://github.com/JoyOffiong)
-=======
  [Adeniyi Olanrewaju] (https://github.com/engrmarkk)
  [Farida Sule] (https://github.com/faridasule)
->>>>>>> 89c964b055ea9d40bb6d52351017cf8a16fc21ff
 
