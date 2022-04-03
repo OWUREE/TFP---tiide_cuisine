@@ -13,10 +13,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-    
-    
-
+    margin: 5rem;
+    margin-left: 20rem;
+    width: 45%;
+    border: 2px solid black;
+       
 }
 
 
@@ -25,7 +26,7 @@
     height: 150px;
     border: 3px solid #cf170d;
     border-radius: 100px;
-    margin-top: 70px;
+    margin-top: 10px;
     fill: #8b0a03;
 }
 
@@ -88,7 +89,7 @@ button{
 button:hover{
     cursor: pointer;
     color: #8b0a03;
-    background-color: green;
+    background-color: black;
     font-weight: bold;
 
 }
