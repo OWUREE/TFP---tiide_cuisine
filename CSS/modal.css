@@ -88,7 +88,12 @@ button{
 button:hover{
     cursor: pointer;
     color: #8b0a03;
-    background-color: #FCF7EE;
+    background-color: green;
     font-weight: bold;
 
+}
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 }
