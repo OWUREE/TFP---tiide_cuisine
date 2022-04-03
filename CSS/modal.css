@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    
+}
+
+.over_all_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    
+
+}
+
+
+.content-container svg{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #cf170d;
+    border-radius: 100px;
+    margin-top: 70px;
+    fill: #8b0a03;
+}
+
+
+.bi-check{
+    width: 300px;
+}
+
+.content-container{
+    padding: 20px;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 200px;
+    margin-left: -50px;
+    
+}
+
+
+h3{
+    
+    font-size: 25px;
+    color: #8b0a03;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+p{
+    
+    font-weight: bold;
+    color: #8b0a03;
+    padding-top: 10px;
+    text-transform: none;
+}
+
+.rider-section{
+    margin-top: 80px;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-right: -30px;
+}
+
+button{
+    background-color: rgb(240, 160, 13);
+    color: #FCF7EE;
+    padding: 12px 30px;
+    padding-top: 15x;
+    margin-top: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 40px;
+    text-transform: uppercase;
+    width: 150px;
+
+}
+button:hover{
+    cursor: pointer;
+    color: #8b0a03;
+    background-color: #FCF7EE;
+    font-weight: bold;
+
+}
