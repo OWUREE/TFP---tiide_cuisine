@@ -1,0 +1,414 @@
+* {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+desc {
+    width: 50%;
+}
+
+section.content_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+div.all_image {
+    display: block;
+}
+
+div.little_image {
+
+    display: flex;
+    background-color: rgba(185, 168, 168, 0.445);
+    margin-top: 80px;
+    margin-left: -130px;
+    margin-right: 70px;
+
+
+}
+
+#lit {
+    padding-left: 450px;
+    margin-right: 40px;
+}
+
+img.little {
+    width: 120px;
+    margin-left: -150px;
+    padding-left: 150px;
+
+}
+
+svg {
+    fill: #d02017;
+}
+
+div.butn {
+    text-align: center;
+}
+
+img.main {
+    margin-top: -15px;
+    width: 500px;
+    transition: 0.5s;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+h4 {
+    font-weight: 500;
+
+}
+
+
+#extra {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* .see_all {
+    color: #d02017;
+} */
+
+section.descr_section {
+    margin-left: 150px;
+    width: 50%;
+}
+
+.section.svg {
+    display: flex;
+}
+
+#time {
+    margin-left: 30px;
+}
+
+button {
+    /* align-items: center; */
+    background-color: #d02017;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+div.qty {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width: 10%;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+div.qty label.qty {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+p.price {
+    margin-top: -3px;
+}
+
+div.tikki {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.double_tikki {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+div.cheese {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* button:hover {
+    margin-bottom: 40px;
+    color: red;
+    background-color: rgb(250, 246, 0);
+    transition: 0.5s;
+} */
+
+.veg {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.veg_box {
+    margin-top: -5px;
+}
+
+div.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=number] {
+    padding: 5px;
+    width: 40px;
+}
+
+
+section.content_wrapper {
+    margin-top: 150px;
+    margin-bottom: 150px
+}
+
+/* header style */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+
+    text-decoration: none;
+    /* footer/Screenshot 2022-03-30 114649.png transition: all 0.2s linear; */
+
+}
+
+header {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: black;
+    width: 100%
+}
+
+
+
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+
+
+
+    color: #FCF7EE;
+    /* margin-right: 120px;
+    margin-left: 120px;
+     */
+
+}
+
+.navlink {
+
+    padding-right: 40px;
+    color: #FCF7EE;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #d02017;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+header button {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FCF7EE;
+}
+
+.content-container {
+    position: fixed;
+}
+
+header svg {
+    color: #FCF7EE;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+
+}
+
+.call-order {
+    display: flex;
+    font-size: 18px;
+    padding-right: 100px;
+    color: #FCF7EE;
+
+
+}
+
+#number {
+
+    font-weight: bold;
+}
+
+.navlinks-wrapper {
+
+
+    display: flex;
+
+
+
+}
+
+/* .navbar-wrapper {
+    justify-content: space-between;
+    margin-right: 100px;
+}
+ */
+
+
+.logo {
+    margin-left: 100px;
+    width: 15%;
+}
+
+
+
+/* footer */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans",sans-serif;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    margin-bottom: 40px;
+    color: #FCF7EE;
+    padding-left: 8px;
+    text-decoration: none;
+
+}
+
+.footer-col ul li a:hover {
+
+    color: #d02017;
+    margin-right: 8px;
+}
+
+footer li {
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+footer h4 {
+    text-align: center;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #FCF7EE;
+    font-weight: 500;
+    position: relative;
+    align-items: center;
+}
+
+footer div.contact {
+    display: flex;
+}
+
+.contacts h4:hover {
+    margin-right: 8px;
+    color: #d02017;
+    cursor: pointer;
+
+}
+
+.footer-col,
+contact,
+contacts {
+    margin-top: 30px;
+}
+
+footer svg {
+    margin-right: 5px;
+    color: #FCF7EE;
+    margin-top: 25px;
+}
+
+.underline {
+    text-decoration: underline solid #d02017;
+    color: #d02017;
+}
