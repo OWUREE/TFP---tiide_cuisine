@@ -46,6 +46,8 @@ li{
 }
 h4{
     text-align: center;
+   
+    
 }
 .footer-col{
     width: 25%;
@@ -57,14 +59,27 @@ h4{
     text-transform: capitalize;
     margin-bottom: 15px;
     color: #FCF7EE;
+    
     font-weight: 500;
     position: relative;
     align-items: center;
 }
 
-.contact {
-    display: flex;   
+.footer-contact {
+    display: flex; 
+    
+    width: 114%;
+    /* justify-content: space-evenly; */
+    
 }
+
+.footer-contact >h4{
+    margin-top:2%; 
+    
+    display: inline;
+    
+}
+
 .contacts h4:hover{
     margin-right: 8px;
     color: #d02017;
