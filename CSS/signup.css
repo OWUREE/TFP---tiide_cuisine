@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: rgba(255, 255, 255, 1);
+  margin-right: 10px;
+  font-family: Gilroy;
+  /* margin: 0 50px; */
+}
+
+/* Header styling  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+
+  color: #fcf7ee;
+  /* margin-right: 120px;
+    margin-left: 120px;
+     */
+}
+
+.navlink {
+  padding-right: 40px;
+  color: #fcf7ee;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.navlink:hover {
+  color: #d02017;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+button {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fcf7ee;
+}
+
+svg {
+  color: #fcf7ee;
+  display: flex;
+  margin-top: 6px;
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+}
+
+.call-order {
+  display: flex;
+  font-size: 18px;
+  padding-right: 100px;
+  color: #fcf7ee;
+}
+
+#number {
+  font-weight: bold;
+}
+
+.navlinks-wrapper {
+  display: flex;
+}
+
+/* .navbar-wrapper {
+    justify-content: space-between;
+    margin-right: 100px;
+}
+ */
+
+.logo {
+  margin-left: 100px;
+  width: 15%;
+}
+
+/* Header ends */
+.container {
+  width: 70%;
+  height: 100%;
+  margin: 70px 30px 10px 60px;
+  display: flex;
+  /* position: relative; */
+  text-align: center;
+  justify-content: center;
+  background: #d02017;
+  padding: 20px;
+  border-radius: 40px;
+  left: -6822px;
+}
+
+.form-left {
+  width: 50%;
+  height: 100%;
+  padding: 20px 0;
+  margin-bottom: -70px;
+  /* background: rgba(255, 255, 255, 1); */
+  border-radius: 20px;
+}
+
+/* Form input styling */
+.container form {
+  width: 60%;
+  text-align: left;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  padding: 0 0 0 30px;
+  margin: -20px -20px -20px 20px;
+}
+
+/* Social media Login styling */
+.login-box {
+  background: #fff;
+  padding: 10px;
+  width: 250px;
+  height: 100px;
+  max-width: 230px;
+  margin: 15vh auto;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.login-box:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-button {
+  background-position: 25px 10px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 35px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 90%;
+  border-radius: 3px;
+  margin: 5px auto;
+  outline: rgb(255, 255, 255) none 0px;
+  padding-left: 20%;
+  transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#facebook-connect {
+  background: rgb(255, 255, 255)
+    url("https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook.svg?sanitize=true")
+    no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+  border: 0.5px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+  border-color: rgb(60, 90, 154);
+  background: rgb(60, 90, 154)
+    url("https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook-white.svg?sanitize=true")
+    no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+}
+
+#facebook-connect span {
+  box-sizing: border-box;
+  color: rgb(60, 90, 154);
+  cursor: pointer;
+  text-align: center;
+  border: 0px none rgb(255, 255, 255);
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#facebook-connect:hover span {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#google-connect {
+  background: rgb(255, 255, 255)
+    url("https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus.png")
+    no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+  border: 0.5px solid rgb(220, 74, 61);
+}
+
+#google-connect:hover {
+  border-color: rgb(220, 74, 61);
+  background: rgb(220, 74, 61)
+    url("https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png")
+    no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+}
+
+#google-connect span {
+  box-sizing: border-box;
+  color: rgb(220, 74, 61);
+  cursor: pointer;
+  text-align: center;
+  border: 0px none rgb(220, 74, 61);
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#google-connect:hover span {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Social media Login styling */
+
+.container .form-left a img {
+  width: 60px;
+  height: 60px;
+  width: 35px;
+  margin-left: -170px;
+  border-radius: 0px;
+}
+
+.container .form-left p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  margin: 5px 0 0 5px;
+  font-size: 23px;
+  font-weight: 16px;
+  line-height: 24px;
+  color: rgba(253, 201, 19, 1);
+}
+
+.container .form-left .form-img {
+  position: absolute;
+  background: url(1(2).png);
+  transform: rotate(23.36deg);
+}
+
+.container .form-left .form-img img {
+  margin: 4px;
+}
+
+.container form img {
+  width: 35px;
+  left: 410.29833984375px;
+  top: 273.52978515625px;
+  border-radius: 0px;
+}
+
+.container form h4 {
+  height: 60.30388641357422px;
+  width: 713.1585693359375px;
+  border-radius: nullpx;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.container .form .sect {
+  margin-left: 40px;
+}
+
+.container form label {
+  text-align: left;
+  left: 419.71728515625px;
+  height: 17px;
+  width: 90px;
+  color: #414042;
+  left: 418px;
+  top: 460px;
+  border-radius: nullpx;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container form input {
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgba(196, 196, 196, 1);
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.container form #create-btn {
+  width: 70%;
+  height: 25px;
+  background: #d02017;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  transition: 0.2s;
+  transition-property: color, transform;
+}
+
+.container form #create-btn:hover {
+  background-color: #f5d7ce;
+  transform: scale(1.2);
+}
+
+.container form .social-log {
+  border-radius: 5px;
+  display: flex;
+  width: 50%;
+}
+
+/* hjkjjj} */
+
+.container form p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+}
+
+.container form .account .log a {
+  margin: 5px;
+  background: rgba(255, 255, 255, 1);
+  color: #414042;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 4px;
+  transition: 0.2s;
+  transition-property: color, transform;
+}
+
+.container form .account .log a:hover {
+  background-color: #d02017;
+  transform: scale(1.3);
+  color: #ffffff;
+}
+
+/* Footer Styling */
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer {
+  background-color: black;
+  padding: 5px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: #fcf7ee;
+  padding-left: 8px;
+}
+
+.footer-col ul li a:hover {
+  color: #d02017;
+  margin-right: 8px;
+}
+
+li {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 10px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: #fcf7ee;
+  font-weight: 500;
+  position: relative;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+}
+
+.contacts h4:hover {
+  margin-right: 8px;
+  color: #d02017;
+  cursor: pointer;
+}
+
+.footer-col {
+  margin-top: 5px;
+}
+
+svg {
+  margin-right: 5px;
+  color: #fcf7ee;
+}
+
+.underline {
+  text-decoration: underline 1.5px solid red;
+  color: #d02017;
+  margin-bottom: 30px;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: white;
+}

@@ -6,6 +6,7 @@ The project will be developed with HTML and CSS to enable pre-fellows get famili
 PROJECT TIMELINE ---> The project is expected to be completed in 2 weeks
 
 HOW TO CONTRIBUTE --->
+
 1. fork the repo to your github account
 2. clone the forked repo to your local machine
 3. create a branch to work on
@@ -14,9 +15,10 @@ HOW TO CONTRIBUTE --->
 6. create a pull request, and wait for it to be merged
 
 CREDIT --->
- [Hanifat Owuri] (https://github.com/OWUREE/)
- [Uchechukwu Ogwumike] (https://github.com/ucheogwumike)
- [Joy Offiong] (https://github.com/JoyOffiong)
- [Adeniyi Olanrewaju] (https://github.com/engrmarkk)
- [Farida Sule] (https://github.com/faridasule)
- [Oluwaseun SODEEQ] (https://github.com/OluwaseunSodeeq)
+[Hanifat Owuri] (https://github.com/OWUREE/)
+[Uchechukwu Ogwumike] (https://github.com/ucheogwumike)
+[Joy Offiong] (https://github.com/JoyOffiong)
+[Adeniyi Olanrewaju] (https://github.com/engrmarkk)
+[Farida Sule] (https://github.com/faridasule)
+[Oluwaseun SODEEQ] (https://github.com/OluwaseunSodeeq)
+[Dauda Lawal] (https://github.com/Daslaw)
