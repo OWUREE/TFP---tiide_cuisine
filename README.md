@@ -22,3 +22,4 @@ CREDIT --->
 [Farida Sule] (https://github.com/faridasule)
 [Oluwaseun SODEEQ] (https://github.com/OluwaseunSodeeq)
 [Dauda Lawal] (https://github.com/Daslaw)
+[Samuel Daniel](https://github.com/Vpsalmuel)
