@@ -9,6 +9,7 @@
     border: none;
     text-decoration: none;
     transition: all 0.2s linear;
+    border-radius: 0%;
     
     
 }
@@ -20,7 +21,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    
+    position: fixed;
     background-color: black;
     width: 100%
     
@@ -75,8 +76,12 @@ svg {
     font-weight: bold;
 
 }
+.contact{
+    display: block;
+}
 .call-order{
     display: flex;
+    
     font-size: 18px;
     padding-right: 100px;
     color: #FCF7EE;
