@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TIIDE Cuisine</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -16,13 +16,57 @@
     />
   </head>
   <body>
-    <header></header>
+    <header class="content-container">
+      <div class="logo">
+        <img
+          src="../Assets/Screenshot 2022-03-30 114649.png"
+          alt="LOGO"
+          height="20%"
+          width="30%"
+        />
+      </div>
 
+      <nav class="navbar-wrapper">
+        <div class="navlinks-wrapper">
+          <a href="#" class="navlink">HOME</a>
+          <a href="#about" class="navlink">ABOUT</a>
+          <a href="#product" class="navlink">PRODUCT</a>
+          <a href="#contact" class="navlink">CONTACT US</a>
+          <a href="#signin" class="navlink">LOG IN</a>
+        </div>
+      </nav>
+      <div class="call-order">
+        <div class="contact">
+          <p>Call To Order</p>
+          <p id="number">+2348051744986</p>
+        </div>
+
+        <a
+          aria-label="svg"
+          href="http://"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart4"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <div class="spacer"></div>
     <main>
       <!-- INTRO SECTION -->
       <section class="intro">
+        <div class="init-color"></div>
         <div class="intro-left-wrapper">
-          <div class="init-color"></div>
           <!-- <div class="intro-left"> -->
           <!-- </div> -->
           <div class="color1"></div>
@@ -33,7 +77,9 @@
           </p>
           <p class="p-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor <br />
+            eiusmod tempor
+          </p>
+          <p class="p-text">
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam.
           </p>
@@ -46,13 +92,14 @@
               aria-label="Search"
               placeholder="Type Your Location"
             />
+
             <button id="btn">Search</button>
           </div>
         </div>
 
         <div class="intro-right">
-          <img class="img1" src="./images/img1.jpg" alt="" />
-          <img class="img2" src="./images/img2.jpg" alt="" />
+          <img class="img1" src="./Assets/img1.jpg" alt="" />
+          <img class="img2" src="./Assets/img2.jpg" alt="" />
         </div>
       </section>
 
@@ -61,21 +108,71 @@
         <div class="promo-text">
           <p class="p-title">Summer Promo</p>
           <p class="p-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor <br />
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.
+            Buy three meals and get one free, purchase every beer on the list
+            and get 10% off beers for the year. <br />
+            To highlight the opening of a second quater of the year, we invite
+            regulars to attend the soft opening and preview new menu items.
           </p>
         </div>
         <div class="promo-wrapper">
           <div class="promo-card">
-            <div class="promo-card-img">
-              <img src="./images/pizza.jpeg" alt="" />
+            <div class="floater">
+              <p>Promo</p>
             </div>
+            <img src="./Assets/pizza.jpeg" alt="" />
             <div class="promo-card-content">
-              <p>Preferred Merchant</p>
-              <h3>Mediterranea Pizza</h3>
-              <p>Fast Food</p>
+              <div class="p-green-wrapper">
+                <!-- <img src="./Assets/badge.webp" alt=""> -->
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">Preferred Merchant</p>
+              </div>              
+              <p class="p-content-title">Mediterranea Pizza</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/cheese_burger.jpeg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+                <!-- <img src="./Assets/badge.webp" alt=""> -->
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">Preferred Merchant</p>
+              </div> 
+              <p class="p-content-title">Cheese Burger Patty</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/chicken.jpeg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+                <!-- <img src="./Assets/badge.webp" alt=""> -->
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">Preferred Merchant</p>
+              </div> 
+              <p class="p-content-title">Golden Fried Chicken</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/fry.jpg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+                <!-- <img src="./Assets/badge.webp" alt=""> -->
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">Preferred Merchant</p>
+              </div> 
+              <p class="p-content-title">Hot French Fries</p>
+              <p class="p-fast-food">Fast Food</p>
             </div>
           </div>
         </div>
@@ -92,31 +189,33 @@
             veniam.
           </p>
         </div>
+        <br><br><br>
         <section class="food-card">
           <div class="food-wrapper">
-            <img src="./images/western.jpg" alt="" />
+            <img src="./Assets/western.jpg" alt="" />
             <p id="p-western">Western</p>
           </div>
           <div class="food-wrapper">
-            <img src="./images/bakery.jpg" alt="" />
+            <img src="./Assets/bake.jpg" alt="" />
             <p id="p-bakery">Bakery</p>
           </div>
           <div class="food-wrapper">
-            <img src="./images/beverage.jpg" alt="" />
-            <p>Beverages</p>
+            <img src="./Assets/beverage.jpg" alt="" />
+            <p id="p-beverage">Beverages</p>
           </div>
         </section>
+        <br>
         <section class="food-card">
           <div class="food-wrapper">
-            <img src="./images/fries.png" alt="" />
+            <img src="./Assets/fries.png" alt="" />
             <p>Fast Food</p>
           </div>
           <div class="food-wrapper">
-            <img src="./images/Japanese.png" alt="" />
+            <img src="./Assets/Japanese.png" alt="" />
             <p>Japanese</p>
           </div>
           <div class="food-wrapper">
-            <img id="chine-img" src="./images/chinese.png" alt="" />
+            <img id="chine-img" src="./Assets/chinese.png" alt="" />
             <p>Chinese</p>
           </div>
         </section>
@@ -124,7 +223,7 @@
 
       <!-- TIIDE-CUISINE SECTION -->
       <section class="tiide-cuisine">
-        <img src="./images/cuisine.png" alt="" />
+        <img src="./Assets/cuisine.png" alt="" />
         <div class="color"></div>
         <div class="cuisine">
           <p id="p2">What is Tiide Cusine?</p>
@@ -145,9 +244,8 @@
     <br />
     <br />
     <br />
-    <br />
-    
- 
+    <br /> 
+    <!-- FOOTER SECTION -->
     <footer class="footer">
       <div class="container">
         <div class="row">
