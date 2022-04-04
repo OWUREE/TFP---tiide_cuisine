@@ -217,8 +217,8 @@ svg {
 }
 .container form .social-log img {
   padding: 6px;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 30px;
 }
 .container form .account .free a {
   margin: 5px;
@@ -261,6 +261,9 @@ ul {
 .footer-col ul li a:hover {
   color: #d02017;
   margin-right: 8px;
+}
+a{
+  text-decoration: none;
 }
 li {
   margin-bottom: 15px;
