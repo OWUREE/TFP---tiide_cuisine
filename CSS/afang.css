@@ -66,7 +66,7 @@ button{
     position: fixed;
 }
 svg {
-    color: #d02017;
+    color: white;
     display: flex;
     margin-top: 6px;
     margin-left: 10px;
@@ -329,7 +329,6 @@ h4{
 }
 svg{
     margin-right: 5px;
-    color: #d02017;
 }
 .underline{
     text-decoration: underline 1.5px solid red;

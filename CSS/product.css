@@ -27,10 +27,6 @@ header{
     
     
 }
-
-
-
-
 nav{
     
     display: flex;
@@ -66,7 +62,7 @@ button{
     color: #FCF7EE;
 }
 .call-order svg {
-    color: #ff3355;
+    color: white;
     display: flex;
     margin-top: 46px;
     margin-left: 10px;
@@ -80,30 +76,20 @@ button{
     font-size: 18px;
     padding-right: 100px;
     color: #FCF7EE;
-    
-    
+      
 }
 #number {
 
     font-weight: bold;
 }
 .navlinks-wrapper{
-    
-    
-    display: flex;
-    
-    
+      
+    display: flex;  
     
 }
 .navlinks-wrapper a {
     text-decoration: none;
 }
-/* .navbar-wrapper {
-    justify-content: space-between;
-    margin-right: 100px;
-}
- */
-
 
 .logo{
     margin-left: 100px ;
@@ -129,8 +115,6 @@ main > div{
    padding: 0 102px; 
 }  
 
-
-
 h1{
 font-style: normal;
 font-weight: 700;
@@ -154,12 +138,6 @@ padding: 0;
     align-items: center;
     font-weight: 500;
     padding-inline-start: 0px;
-}
-
-.menu-list li{
-    /* white-space: nowrap; */
-   
-
 }
 .menu >.menu-list {
     margin-inline-start: 0;
@@ -226,6 +204,10 @@ ul{
 .product-page-btn:hover {
     transform: scale(1.1) translateY(-2px);
     box-shadow: #2E2E2E;
+}
+p a{
+    text-decoration: none;
+    color: white;
 }
 .price{
     font-size: 32px;
@@ -354,7 +336,7 @@ ul{
 .footer svg{
     margin-top: 25px;
     margin-right: 5px;
-    color: #ff3355;
+    color: white;
 }
 .underline{
     margin-left: 50px;
