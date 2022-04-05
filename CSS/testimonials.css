@@ -246,7 +246,7 @@ svg {
 }
 
 .footer-col .underline {
-    text-decoration: underline;
+    text-decoration: underline 1px solid red;
 }
 
 .footer-col ul li {
