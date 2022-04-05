@@ -132,7 +132,7 @@ svg {
   background: rgba(255, 255, 255, 1);
   border-radius: 15px;
   padding: 0 0 0 30px;
-  margin: -20px -20px -20px 20px;
+  margin: -20px -20px -20px 0px;
 }
 
 /* Social media Login styling */
@@ -142,7 +142,7 @@ svg {
   width: 250px;
   height: 100px;
   max-width: 230px;
-  margin: 15vh auto;
+  margin: 10vh auto;
   text-align: center;
   letter-spacing: 1px;
   position: relative;
@@ -158,7 +158,7 @@ svg {
   color: rgb(255, 255, 255);
   cursor: pointer;
   display: inline-block;
-  height: 35px;
+  height: 34px;
   line-height: 15px;
   text-align: left;
   text-decoration: none;
@@ -286,6 +286,8 @@ svg {
 .container .form-left .form-img {
   position: absolute;
   background: url(1(2).png);
+  margin-top: 80px;
+  margin-left: 54px;
   transform: rotate(23.36deg);
 }
 
