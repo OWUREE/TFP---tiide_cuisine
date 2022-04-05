@@ -28,21 +28,21 @@
 
       <nav class="navbar-wrapper">
         <div class="navlinks-wrapper">
-          <a href="#" class="navlink">HOME</a>
+          <a href="./index.html" class="navlink">HOME</a>
           <a href="#about" class="navlink">ABOUT</a>
-          <a href="#product" class="navlink">PRODUCT</a>
-          <a href="#contact" class="navlink">CONTACT US</a>
-          <a href="#signin" class="navlink">LOG IN</a>
+          <a href="./HTML/product.html" class="navlink">PRODUCT</a>
+          <a href="./HTML/contact.html" class="navlink">CONTACT US</a>
+          <a href="./HTML/signup.html" class="navlink">LOG IN</a>
         </div>
       </nav>
       <div class="call-order">
-        <div class="contact">
+        <div class="contact-header">
           <p>Call To Order</p>
           <p id="number">+2348051744986</p>
         </div>
 
         <a
-          aria-label="svg"
+          aria-label="link"
           href="http://"
           target="_blank"
           rel="noopener noreferrer"
@@ -76,13 +76,14 @@
             Order Food Today!
           </p>
           <p class="p-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
+            Welcome to TIIDE CUISINE where our aim is to satisfy all your needs
+            and <br /> wants when 
+            it comes to food. We deliver to the very best of our knowledge <br /> and ensure that we give you our very best.
           </p>
-          <p class="p-text">
+          <!-- <p class="p-text">
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam.
-          </p>
+          </p> -->
 
           <div class="search">
             <input
@@ -109,9 +110,9 @@
           <p class="p-title">Summer Promo</p>
           <p class="p-text">
             Buy three meals and get one free, purchase every beer on the list
-            and get 10% off beers for the year. <br />
-            To highlight the opening of a second quater of the year, we invite
-            regulars to attend the soft opening and preview new menu items.
+            and get 10% off beers for the year. To highlight the opening <br />
+            of a second quater of the year, we invite regulars to attend the
+            soft opening and preview new menu items.
           </p>
         </div>
         <div class="promo-wrapper">
@@ -125,7 +126,7 @@
                 <!-- <img src="./Assets/badge.webp" alt=""> -->
                 <i class="fa fa-check-circle-o"></i>
                 <p class="p-green">Preferred Merchant</p>
-              </div>              
+              </div>
               <p class="p-content-title">Mediterranea Pizza</p>
               <p class="p-fast-food">Fast Food</p>
             </div>
@@ -140,7 +141,7 @@
                 <!-- <img src="./Assets/badge.webp" alt=""> -->
                 <i class="fa fa-check-circle-o"></i>
                 <p class="p-green">Preferred Merchant</p>
-              </div> 
+              </div>
               <p class="p-content-title">Cheese Burger Patty</p>
               <p class="p-fast-food">Fast Food</p>
             </div>
@@ -155,7 +156,7 @@
                 <!-- <img src="./Assets/badge.webp" alt=""> -->
                 <i class="fa fa-check-circle-o"></i>
                 <p class="p-green">Preferred Merchant</p>
-              </div> 
+              </div>
               <p class="p-content-title">Golden Fried Chicken</p>
               <p class="p-fast-food">Fast Food</p>
             </div>
@@ -170,7 +171,7 @@
                 <!-- <img src="./Assets/badge.webp" alt=""> -->
                 <i class="fa fa-check-circle-o"></i>
                 <p class="p-green">Preferred Merchant</p>
-              </div> 
+              </div>
               <p class="p-content-title">Hot French Fries</p>
               <p class="p-fast-food">Fast Food</p>
             </div>
@@ -183,20 +184,20 @@
         <div class="promo-text">
           <p class="p-title">Food Category</p>
           <p class="p-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor <br />
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.
+            We provide a wide variety of food options you for you to choose
+            from, which can either be local, continental, western dishes <br />
+            based on your choice and be rest assured that you're going to get
+            the very best quality.
           </p>
         </div>
-        <br><br><br>
+        <br /><br /><br />
         <section class="food-card">
           <div class="food-wrapper">
             <img src="./Assets/western.jpg" alt="" />
             <p id="p-western">Western</p>
           </div>
           <div class="food-wrapper">
-            <img src="./Assets/bake.jpg" alt="" />
+            <img src="./Assets/bakery.jpg" alt="" />
             <p id="p-bakery">Bakery</p>
           </div>
           <div class="food-wrapper">
@@ -204,47 +205,108 @@
             <p id="p-beverage">Beverages</p>
           </div>
         </section>
-        <br>
+        <br />
         <section class="food-card">
           <div class="food-wrapper">
             <img src="./Assets/fries.png" alt="" />
-            <p>Fast Food</p>
+            <p id="p-fast-food">Fast Food</p>
           </div>
           <div class="food-wrapper">
             <img src="./Assets/Japanese.png" alt="" />
-            <p>Japanese</p>
+            <p id="p-japanse">Japanese</p>
           </div>
           <div class="food-wrapper">
             <img id="chine-img" src="./Assets/chinese.png" alt="" />
-            <p>Chinese</p>
+            <p id="p-chinese">Chinese</p>
           </div>
         </section>
       </section>
 
       <!-- TIIDE-CUISINE SECTION -->
-      <section class="tiide-cuisine">
-        <img src="./Assets/cuisine.png" alt="" />
+      <section class="tiide-cuisine" id="about">
+        <div class="img-group">
+          <img id="img-group-cuisine" src="./Assets/cuisine.png" alt="" />
+          <img id="img-group-chinese" src="./Assets/chinese.png" alt="" />
+        </div>
         <div class="color"></div>
         <div class="cuisine">
           <p id="p2">What is Tiide Cusine?</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <p id="p3">
+            A meal app that proposes to solve the problem of think of how <br />
+            to get food to eat, By providing customers with a wide variety<br />
+            of food options to choose from. You can now order your local, <br />
+            continental, western dishes with ease, and be sure to get efficient
             <br />
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            <br />
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            <br />
-            ut aliquip ex ea commodo consequat.
+            services.
           </p>
+          <button id="btn-learn">Learn More</button>
+          <div class="tiide-color"></div>
+        </div>
+      </section>
+
+      <!-- ORDER SECTION -->
+      <section class="order">
+        <div class="order-left-wrapper">
+          <p id="order-head">
+            Start Ordering Food <br />
+            from your Phone
+          </p>
+          <p class="writeup" id="writeup-spacer">
+            You can now place your order across any platform of your <br />
+            choice without having to worry about anything and get <br />
+            it delivered to your doorstep in minutes.
+          </p>
+          <div class="order-inner-left">
+            <div class="badge" href="/"></div>
+            <div class="txt">
+              <p class="title">Easy Order</p>
+              <p class="writeup">
+                Make the apperance of a mobile application <br />
+                that has quality and increases convenience.
+              </p>
+            </div>
+          </div>
+          <div class="order-inner-left">
+            <div class="badge" href="/"></div>
+            <div class="txt">
+              <p class="title">Secure Payment</p>
+              <p class="writeup">
+                Help Create a website and redesign it so that<br />
+                it becomes a website that is more trendy.
+              </p>
+            </div>
+          </div>
+          <div class="order-inner-left">
+            <div class="badge" href="/"></div>
+            <div class="txt">
+              <p class="title">Best User Experience</p>
+              <p class="writeup">
+                Create customizable illustrations with<br />
+                attractive designs.
+              </p>
+            </div>
+          </div>
+          <div class="order-app">
+            <div class="app-store">
+              <p id="available">
+                Available on the <br />
+                <span>App Store</span>
+              </p>
+            </div>
+            <div class="play-store">
+              <p id="get">
+                GET IT ON <br />
+                <span>Google Play</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="order-right">
+          <img src="./Assets/phone.jpg" alt="" class="phone" />
         </div>
       </section>
     </main>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br /> 
+
     <!-- FOOTER SECTION -->
     <footer class="footer">
       <div class="container">
@@ -307,7 +369,8 @@
                   href="http://"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><svg
+                >
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
@@ -330,13 +393,13 @@
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Order Now</a></li>
-              <li><a href="#">Product</a></li>
+              <li><a href="./product.html">Product</a></li>
             </ul>
           </div>
           <div class="footer-col">
             <h4 class="underline">Company</h4>
             <ul>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="./contact.html">FAQ</a></li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Download App</a></li>
               <li><a href="#">Privacy and Policy</a></li>
