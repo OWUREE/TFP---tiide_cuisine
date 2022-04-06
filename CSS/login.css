@@ -97,9 +97,6 @@ svg {
 /* form section*/
 
 .container {
-  width: 65%;
-  height: 670px;
-  margin: 50px 0 0 200px;
   width: 90%;
   height: 590px;
   margin: 90px auto;
@@ -136,71 +133,53 @@ svg {
 }
 
 .container form img {
-  width: 35px;
-  left: 410.29833984375px;
-  top: 273.52978515625px;
-  border-radius: 0px;
+  width: 60px;
 }
 
 .container form h2 {
-  height: 80.30388641357422px;
-  width: 125.85159301757812px;
-  left: 419.71728515625px;
-  top: 363.137939453125px;
-  border-radius: nullpx;
   font-family: Gilroy;
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 2rem;
 }
 
 .container form label {
   text-align: left;
-  left: 419.71728515625px;
-  height: 47px;
-  width: 90px;
   color: #414042;
-  left: 418px;
-  top: 460px;
   margin: 50px 0;
   border-radius: nullpx;
   font-family: Arial;
   font-size: 16px;
   font-weight: 300;
   line-height: 23px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
 .container form input {
   width: 70%;
-  padding: 13px;
+  padding: 17px;
   margin-right: 20px;
   border: none;
   outline: none;
   margin-top: 10px;
-  margin-bottom: 2px;
-  box-shadow: 0px 2px 20px rgba(255, 255, 255, 1);
-  left: 419.71728515625px;
-  top: 491.611328125px;
   border-radius: 40px;
   border: 1px solid #bcbec0;
 }
 
 .container form #login-btn {
-  width: 70px;
-  padding: 10px;
+  width: 120px;
+  padding: 12px;
   background: #d02017;
   color: white;
   font-weight: bold;
   border: none;
   outline: none;
-
+  margin-left: 15rem;
   border-radius: 40px;
-  transition: 0.2s;
-  transition-property: color, transform;
+  margin-top: -2rem;
 }
 
 .container form #login-btn:hover {
@@ -209,17 +188,20 @@ svg {
 }
 
 .container form p {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
   color: #666;
+  margin-top: 1rem;
 }
-
+p .account{
+  margin-right: 10rem;
+}
 .container form .social-log {
   width: 20px;
   height: 20px;
   display: flex;
   border-radius: 22px;
-  margin-bottom: 23px;
+  margin-bottom: 25px;
 }
 
 .container form .social-log .google svg {
@@ -256,7 +238,6 @@ svg {
   height: 30px;
   margin: 2px;
 }
-
 .container form .account .free a {
   margin: 5px;
   background: rgba(255, 255, 255, 1);
@@ -264,8 +245,6 @@ svg {
   text-decoration: none;
   border-radius: 10px;
   padding: 4px;
-  transition: 0.2s;
-  transition-property: color, transform;
 }
 
 .container form .account .free a:hover {

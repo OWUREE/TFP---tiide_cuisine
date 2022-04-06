@@ -252,8 +252,7 @@ svg {
 .container .form-left a img {
   width: 60px;
   height: 60px;
-  width: 35px;
-  /* background-color: rgb(253, 0, 0); */
+  background-color: white;
   margin-left: -170px;
   border-radius: 20px;
 }
@@ -271,17 +270,9 @@ svg {
   color: rgba(253, 201, 19, 1);
 }
 
-.container .form-left .form-img {
-  position: absolute;
-  background: url(1(2).png);
-  margin-top: 80px;
-  margin-left: 54px;
-  width: 20%;
-  transform: rotate(23.36deg);
-}
-
 .container .form-left .form-img img {
   margin: 4px;
+  width: 350px;
 }
 
 .container form img {
@@ -331,25 +322,21 @@ svg {
   border-bottom: 2px solid rgba(196, 196, 196, 1);
   width: 75%;
   padding: 0px 0px 20px 0px;
-  /* margin: 8px 0; */
+  margin-bottom: 1rem;
 }
 
 .container form #create-btn {
-  width: 70%;
+  width: 40%;
   height: 45px;
   background: #d02017;
   color: white;
   border: none;
   outline: none;
-  margin-bottom: 46px;
   border-radius: 40px;
   transition: 0.2s;
-  transition-property: color, transform;
 }
-
 .container form #create-btn:hover {
   background-color: #f5d7ce;
-  transform: scale(1.2);
 }
 
 .container form .social-log {
@@ -358,17 +345,15 @@ svg {
   width: 50%;
 }
 
-/* hjkjjj} */
-
 .container form p {
   line-height: 2em;
   font-size: 13px;
   font-weight: bold;
   color: #666;
-  margin-bottom: 50px;
 }
 
 .container form .account .log {
+  font-size: 1.2rem;
   border-radius: 10px;
   padding: 30px 20px;
   margin: 50px 15px;
@@ -384,7 +369,9 @@ svg {
   transition: 0.2s;
   transition-property: color, transform;
 }
-
+.account{
+  margin: 0.5rem 0;
+}
 .container form .account .log a:hover {
   background-color: #d02017;
   transform: scale(1.3);
