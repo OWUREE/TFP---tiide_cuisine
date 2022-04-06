@@ -43,8 +43,8 @@ img.little {
 
 }
 
-svg {
-    fill: white;
+.order {
+    fill: red;
 }
 
 div.butn {
@@ -150,13 +150,6 @@ div.cheese {
 }
 
 
-/* button:hover {
-    margin-bottom: 40px;
-    color: red;
-    background-color: rgb(250, 246, 0);
-    transition: 0.5s;
-} */
-
 .veg {
     display: block;
     margin-bottom: 10px;
@@ -178,8 +171,8 @@ input[type=number] {
 
 
 section.content_wrapper {
-    margin-top: 150px;
-    margin-bottom: 150px
+    margin-top: 85px;
+    margin-bottom: 80px
 }
 
 /* header style */
@@ -222,13 +215,7 @@ nav {
 
     align-items: center;
     text-align: center;
-
-
-
     color: #FCF7EE;
-    /* margin-right: 120px;
-    margin-left: 120px;
-     */
 
 }
 
@@ -236,7 +223,7 @@ nav {
 
     padding-right: 40px;
     color: #FCF7EE;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     justify-content: space-between;
     text-decoration: none;
@@ -262,7 +249,7 @@ header button {
 header svg {
     color: #FCF7EE;
     display: flex;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 10px;
     height: 30px;
     width: 30px;
@@ -275,18 +262,17 @@ header svg {
     font-size: 18px;
     padding-right: 100px;
     color: #FCF7EE;
-
-
 }
-
+.contact p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 #number {
-
     font-weight: bold;
+    
 }
 
 .navlinks-wrapper {
-
-
     display: flex;
 
 
