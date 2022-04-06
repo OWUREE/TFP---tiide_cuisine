@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIIDE Cuisine</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="content-container">
+      <div class="logo">
+        <img
+          src="../Assets/Screenshot 2022-03-30 114649.png"
+          alt="LOGO"
+          height="20%"
+          width="30%"
+        />
+      </div>
+
+      <nav class="navbar-wrapper">
+        <div class="navlinks-wrapper">
+          <a href="./index.html" class="navlink">HOME</a>
+          <a href="#about" class="navlink">ABOUT</a>
+          <a href="./HTML/product.html" class="navlink">PRODUCT</a>
+          <a href="./HTML/contact.html" class="navlink">CONTACT US</a>
+          <a href="./HTML/login.html" class="navlink">LOG IN</a>
+        </div>
+      </nav>
+      <div class="call-order">
+        <div class="contact-header">
+          <p>Call To Order</p>
+          <p id="number">+2348051744986</p>
+        </div>
+
+        <a
+          aria-label="link"
+          href="./HTML/checkout.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart4"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <div class="spacer"></div>
+    <main>
+      <!-- INTRO SECTION -->
+      <section class="intro">
+        <div class="init-color"></div>
+        <div class="intro-left-wrapper">
+          <!-- <div class="intro-left"> -->
+          <!-- </div> -->
+          <div class="color1"></div>
+          <p id="p1">Hello, John!</p>
+          <p id="p-head">
+            Let's Explore and <br />
+            Order Food Today!
+          </p>
+          <p class="p-text">
+            Welcome to TIIDE CUISINE where our aim is to satisfy all your needs
+            and <br /> wants when 
+            it comes to food. We deliver efficient and quality services <br /> and ensure that we give you our very best.
+          </p>
+          <!-- <p class="p-text">
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam.
+          </p> -->
+
+          <div class="search">
+            <input
+              type="search"
+              name=""
+              id="search-field"
+              aria-label="Search"
+              placeholder="Type Your Location"
+            />
+
+            <button id="btn">Search</button>
+          </div>
+        </div>
+
+        <div class="intro-right">
+          <img class="img1" src="./Assets/img1.jpg" alt="" />
+          <img class="img2" src="./Assets/img2.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- PROMO SECTION -->
+      <section class="promo">
+        <div class="promo-text">
+          <p class="p-title">Summer Promo</p>
+          <p class="p-text">
+            Buy three meals and get one free, purchase every beer on the list
+            and get 10% off beers for the year. To highlight the opening <br />
+            of a second quarter of the year, we invite regulars to attend the
+            soft opening and preview new menu items.
+          </p>
+        </div>
+        <div class="promo-wrapper">
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/pizza.jpeg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">10% discount</p>
+              </div>
+              <p class="p-content-title">Mediterranea Pizza</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/cheese_burger.jpeg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">10% discount</p>
+              </div>
+              <p class="p-content-title">Cheese Burger Patty</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/chicken.jpeg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+                
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">10% discount</p>
+              </div>
+              <p class="p-content-title">Golden Fried Chicken</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+          <div class="promo-card">
+            <div class="floater">
+              <p>Promo</p>
+            </div>
+            <img src="./Assets/fry.jpg" alt="" />
+            <div class="promo-card-content">
+              <div class="p-green-wrapper">
+               
+                <i class="fa fa-check-circle-o"></i>
+                <p class="p-green">10% discount</p>
+              </div>
+              <p class="p-content-title">Hot French Fries</p>
+              <p class="p-fast-food">Fast Food</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOD CATEGORIES SECTION -->
+      <section class="food">
+        <div class="promo-text">
+          <p class="p-title">Food Category</p>
+          <p class="p-text">
+            We provide a wide variety of food options you for you to choose
+            from, which can either be local, continental, or western dishes. <br />
+            make your choice and be rest assured that you're going to get
+            the very best quality.
+          </p>
+        </div>
+        <br /><br /><br />
+        <section class="food-card">
+          <div class="food-wrapper">
+            <img src="./Assets/western.jpg" alt="" />
+            <p id="p-western">Western</p>
+          </div>
+          <div class="food-wrapper">
+            <img src="./Assets/bakery.jpg" alt="" />
+            <p id="p-bakery">Bakery</p>
+          </div>
+          <div class="food-wrapper">
+            <img src="./Assets/beverage.jpg" alt="" />
+            <p id="p-beverage">Beverages</p>
+          </div>
+        </section>
+        <br />
+        <section class="food-card">
+          <div class="food-wrapper">
+            <img src="./Assets/fries.png" alt="" />
+            <p id="p-fast-food">Fast Food</p>
+          </div>
+          <div class="food-wrapper">
+            <img src="./Assets/Japanese.png" alt="" />
+            <p id="p-japanse">Japanese</p>
+          </div>
+          <div class="food-wrapper">
+            <img id="chine-img" src="./Assets/chinese.png" alt="" />
+            <p id="p-chinese">Chinese</p>
+          </div>
+        </section>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="tiide-cuisine" id="about">
+        <div class="img-group">
+          <img id="img-group-cuisine" src="./Assets/cuisine.png" alt="" />
+          <img id="img-group-chinese" src="./Assets/chinese.png" alt="" />
+        </div>
+        <div class="color"></div>
+        <div class="cuisine">
+          <p id="p2"> What is Tiide Cusine?</p>
+          <p id="p3">
+            A meal app that proposes to solve the problem of "how <br />
+           do I get food to eat", by providing customers with a wide variety<br />
+            of food options to choose from. You can now order your local, <br />
+            continental, western dishes with ease, and be sure to get efficient
+            <br />
+            services.
+          </p>
+          <button id="btn-learn">Learn More</button>
+          <div class="tiide-color"></div>
+        </div>
+      </section>
+
+      <!-- ORDER SECTION -->
+      <section class="order">
+        <div class="order-left-wrapper">
+          <p id="order-head">
+            Start Ordering Food <br />
+            from your Phone
+          </p>
+          <p class="writeup" id="writeup-spacer">
+            You can now place your order across any platform of your <br />
+            choice without having to worry about anything and get <br />
+            it delivered to your doorstep in minutes.
+          </p>
+          <div class="order-inner-left">
+            <div class="badge" href="/"></div>
+            <div class="txt">
+              <p class="title">Easy Order</p>
+              <p class="writeup">
+               a mobile application that allows you to conveniently make orders. <br />
+                order from anywhere with your phone.
+              </p>
+            </div>
+          </div>
+          <div class="order-inner-left">
+            <div class="badge" href="/"></div>
+            <div class="txt">
+              <p class="title">Secure Payment</p>
+              <p class="writeup">
+               are you worried about paying with your card?, don't be.<br />
+               be rest assured that all payments made with card aren't saved.
+              </p>
+            </div>
+          </div>
+          <div class="order-inner-left">
+            <div class="badge" href="/"></div>
+            <div class="txt">
+              <p class="title">Best User Experience</p>
+              <p class="writeup">
+                with designs that are easy to use and navigate.<br />
+                to improve user experience.
+              </p>
+            </div>
+          </div>
+          <div class="order-app">
+            <div class="app-store">
+              <p id="available">
+                Available on the <br />
+                <span>App Store</span>
+              </p>
+            </div>
+            <div class="play-store">
+              <p id="get">
+                GET IT ON <br />
+                <span>Google Play</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="order-right">
+          <img src="./Assets/phone.jpg" alt="" class="phone" />
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <img
+              src="../Assets/Screenshot 2022-03-30 114649.png"
+              alt="LOGO"
+              class="logo"
+              width="50px"
+              height="50px"
+            />
+            <div class="contacts">
+              <div class="contact">
+                <a
+                  aria-label="link"
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                </a>
+                <h4>hello@tiidecuisine.com</h4>
+              </div>
+              <div class="contact">
+                <a
+                  aria-label="link"
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-telephone-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                    />
+                  </svg>
+                </a>
+                <h4>+2348051744986</h4>
+              </div>
+              <div class="contact">
+                <a
+                  aria-label="link"
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                    />
+                  </svg>
+                </a>
+                <h4>812 Ohio st, South Gate, Abuja</h4>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4 class="underline">Site Map</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Order Now</a></li>
+              <li><a href="./HTML/product.html">Product</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="underline">Company</h4>
+            <ul>
+              <li><a href="./HTML/contact.html">FAQ</a></li>
+              <li><a href="./HTML/testimonial.html">Reviews</a></li>
+              <li><a href="#">Download App</a></li>
+              <li><a href="#">Privacy and Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="copyright">&copy; developed by 2022 Tiidelab pre-fellows</div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -36,15 +36,13 @@ header {
 
 nav {
   display: flex;
-
   align-items: center;
   text-align: center;
-
   color: #fcf7ee;
 }
 
 .navlink {
-  padding-right: 40px;
+  padding-right: 16px;
   color: #fcf7ee;
   font-size: 20px;
   font-weight: bold;
@@ -68,7 +66,7 @@ svg {
   color: #fcf7ee;
   display: flex;
   margin-top: 6px;
-  margin-left: 10px;
+  margin-left: 6px;
   height: 30px;
   width: 30px;
   font-weight: bold;
@@ -90,7 +88,7 @@ svg {
 }
 
 .logo {
-  margin-left: 100px;
+  margin-left: 70px;
   width: 15%;
 }
 
@@ -102,6 +100,9 @@ svg {
   width: 65%;
   height: 670px;
   margin: 50px 0 0 200px;
+  width: 90%;
+  height: 590px;
+  margin: 90px auto;
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
@@ -305,7 +306,6 @@ ul {
   color: #d02017;
   margin-right: 8px;
 }
-
 a {
   text-decoration: none;
 }
