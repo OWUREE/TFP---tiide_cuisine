@@ -8,11 +8,11 @@
 }
 
 body {
-  background-image: url(../Assets/restaurant-mockup1\ 1.png);
+  /* background-image: url(../Assets/restaurant-mockup1\ 1.png);
   background-position: center;
   background-color: #f5d7ce;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   font-family: Gilroy;
   box-sizing: border-box;
   opacity: 0.9;
@@ -112,7 +112,7 @@ svg {
 }
 
 .form-left {
-  width: 40%;
+  width: 70%;
   height: 118%;
   margin-right: -60px;
   margin-top: -50px;
@@ -194,15 +194,19 @@ svg {
   color: #666;
   margin-top: 1rem;
 }
-p .account{
+ .account{
+   
   margin-right: 10rem;
+  text-align: center;
 }
 .container form .social-log {
   width: 20px;
   height: 20px;
   display: flex;
   border-radius: 22px;
-  margin-bottom: 25px;
+  margin-left: 13.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 40px;
 }
 
 .container form .social-log .google svg {
@@ -242,7 +246,7 @@ p .account{
 .container form .account .free a {
   margin: 5px;
   background: rgba(255, 255, 255, 1);
-  color: #414042;
+  color: black;
   text-decoration: none;
   border-radius: 10px;
   padding: 4px;
