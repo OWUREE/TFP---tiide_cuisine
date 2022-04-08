@@ -9,9 +9,7 @@
 .checkout-container{
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     height: 100vh;
-    /* background-color: blue; */
     margin-top: 5.5%;
     margin-bottom: 5%;
 }
@@ -22,7 +20,6 @@
     flex-direction: column;
     height: 100%;
     margin-top: 3%;
-    /* background-color: gold; */
 }
 
 .right-container{
@@ -31,15 +28,9 @@
     flex-direction: column;
     height: 100%;
     margin-top: 3%;
-    /* background-color: darkmagenta; */
     font-size: 0.7em;
       
 }
-      /* td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-} */
 table{
     width: 100%;
     border: 1px solid #dddddd;
